@@ -1,0 +1,19 @@
+[project]
+name = "bayesian-news-fair-value"
+version = "0.1.0"
+description = "Bayesian news/sentiment fair-value estimator for binary event contracts."
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2,<9"]
+nlp = ["transformers", "torch"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

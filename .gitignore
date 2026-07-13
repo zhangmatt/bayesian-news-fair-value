@@ -1,0 +1,17 @@
+.DS_Store
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+.env
+.env.*
+
+*.pem
+*.key
+*.secret
+secrets.*
+api_keys.*
+live_metrics.md
