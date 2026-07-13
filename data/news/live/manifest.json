@@ -1,0 +1,19 @@
+{
+  "allow_wikipedia_fallback": false,
+  "built_at": "2026-07-10T09:31:17.328680Z",
+  "disabled_hosts": [],
+  "events_analyzed": 50,
+  "market_lookback_days": 1,
+  "max_news_per_event": 12,
+  "news_items": 448,
+  "news_lookback_days": 30,
+  "news_source_requested": "google_rss",
+  "no_lookahead_rule": "GDELT uses seendate as first-seen point-in-time; Google News RSS fallback uses article pubDate as the observed timestamp and filters pubDate <= market as_of",
+  "skipped": {
+    "excluded_tag": 5,
+    "no_news": 3,
+    "source:google_rss": 50
+  },
+  "source": "Polymarket Gamma + Polymarket CLOB prices-history + Google News RSS",
+  "target_events": 50
+}
